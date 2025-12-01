@@ -1,0 +1,42 @@
+:root {
+  --bg-secondary: #fff5e1;
+  --button-color: #f7a8a8;
+}
+body {
+  font-family: sans-serif;
+  background: #fff6ef !important;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Navbar :hover {
+  color: var(--button-color) !important;
+}
+.container {
+  width: 90vw;
+  margin: auto;
+  padding: 40px 0;
+}
+
+h1 {
+  text-align: center;
+  color: #c2953f;
+  margin-bottom: 20px;
+}
+.about-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 20px;
+  border: 1px solid #f1e1c6;
+  color: #444;
+}
+
+.container-fluid {
+  border: none;
+}

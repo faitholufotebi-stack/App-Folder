@@ -1,0 +1,99 @@
+:root {
+  --bg-primary: #fadadd;
+  --bg-secondary: #fff5e1;
+  --accent-color: #ffe5a5;
+  --text-color: #5c4033;
+  --button-color: #f7a8a8;
+  --hover-color: #ffd6ba;
+  --footer-color: #ead7b7;
+  --footer-color-light: #4e342e;
+  --icons: #c8a27a;
+}
+
+body {
+  background-color: var(--bg-secondary) !important;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.Navbar {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Navbar :hover {
+  color: var(--button-color) !important;
+}
+
+button {
+  background-color: var(--button-color) !important;
+  color: var(--text-color) !;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.hero button:hover {
+  color: var(--button-color) !important;
+}
+
+/* .hero {
+  color: white;
+} */
+
+/* h1 {
+  color: var(--text-color) !important;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* .h2 {
+  color: var(--text-color--) !important;
+} */
+
+/* .card-title {
+  color: var(--text-color) !important;
+} */
+
+.card {
+  text-align: center;
+  border: none;
+}
+
+.card2 {
+  margin-top: 30px;
+  align-items: center;
+  justify-items: center;
+}
+
+.card3 {
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.testimonials {
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer {
+  background-color: var(--footer-color) !important;
+  color: var(--footer-color-light) !important;
+  margin-top: 30px;
+}
+
+.listunstyled {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: #4e342e !important;
+}

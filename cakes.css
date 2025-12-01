@@ -1,0 +1,13 @@
+:root {
+  --bg-primary: #e7b2a5;
+  --bg-secondary: #f4e4c1;
+  --buttons: #ff5f8a;
+}
+
+body {
+  background-color: var(--bg-primary) !important;
+}
+
+p {
+  color: var(--bg-secondary) !important;
+}

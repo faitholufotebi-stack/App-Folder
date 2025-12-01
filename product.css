@@ -1,0 +1,49 @@
+:root {
+  --bg-primary: #f7eebd;
+  --bg-secondary: #b89232;
+  --bg-secondary-light: #fff5e1;
+  --buttons: #e7c873;
+  --button-color: #f7a8a8;
+  --aacent: #3c2a1e;
+  --text-color: #2a1a0e;
+  --text-color-light: #4b4236;
+}
+
+body {
+  background-color: var(--bg-primary) !important;
+}
+
+.Navbar {
+  background-color: var(--bg-secondary-light) !important;
+  color: var(--text-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Navbar :hover {
+  color: var(--button-color) !important;
+}
+
+h1 {
+  color: var(--bg-secondary) !important;
+}
+
+.cake {
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.pastry {
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+}
+
+.card-title {
+  color: var(--text-color) !important;
+}
+
+.card-text {
+  color: var(--text-color-light) !important;
+}
