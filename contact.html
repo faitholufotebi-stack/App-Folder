@@ -4,35 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="contact.css" />
+    <!--Bootstrap css CDN  -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
     />
   </head>
   <body>
-    <h1>Contact Us</h1>
-    <p style="font-size: larger">
-      We’d love to hear from you! 💖 Whether you’re ready to place an order or
-      just have a sweet question, our team is here to help.<br />
-      <i class="fi fi-sr-marker"></i>Location: Ijebu Ode<br />
-      <i class="fi fi-sr-phone-call"></i>Phone: +234 9016049140<br />
-      <i class="fi fi-sr-envelope"></i>Email:infocakes@gmail.com<br />
-      <i class="fi fi-brands-instagram"></i>Instagram:Apeke Ade <br />
-      Or simply fill out our order form — we’ll get back to you quickly to
-      confirm your order and bring your vision to life. <br />✨ Let’smake your
-      next celebration extra special!
-    </p>
+    <form class="contact-form">
+      <h2>Contact Us</h2>
+
+      <label for="name">Full Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your full name"
+        required
+      />
+
+      <label for="email">Email Address</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <label for="phone">Phone Number</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Enter your phone number"
+      />
+
+      <label for="subject">Subject</label>
+      <input
+        type="text"
+        id="subject"
+        name="subject"
+        placeholder="What is this about?"
+        required
+      />
+
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        placeholder="Type your message here..."
+        required
+      ></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <h2>Contact Information</h2>
+
+      <p><strong>Phone:</strong> +234 813 456 7890</p>
+      <p><strong>Email:</strong> info@cakehouse.com</p>
+      <p><strong>Address:</strong> 22 Sweet Street, Lagos, Nigeria</p>
+
+      <p>
+        <strong>Business Hours:</strong><br />
+        Mon–Sat: 8:00 AM – 7:00 PM<br />
+        Sunday: Closed
+      </p>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script>
+      src =
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js";
+      integrity =
+        "sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI";
+      crossorigin = "anonymous";
+    </script>
   </body>
 </html>
