@@ -58,15 +58,25 @@ button {
   color: var(--text-color) !important;
 } */
 
-.card {
+/* .card {
   text-align: center;
   border: none;
+  transition: all0.3s ease-in-out;
 }
+
+.card :hover {
+  transform: translateY(-10px);
+} */
 
 .card2 {
   margin-top: 30px;
   align-items: center;
   justify-items: center;
+  transition: all0.3s ease-in-out;
+}
+
+.card2 :hover {
+  transform: translateY(-10px);
 }
 
 .card3 {
