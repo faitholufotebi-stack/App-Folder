@@ -37,7 +37,8 @@ button {
 }
 
 .hero button:hover {
-  color: var(--button-color) !important;
+  color: white;
+  background-color: var(--hover-color) !important;
 }
 
 /* .hero {
