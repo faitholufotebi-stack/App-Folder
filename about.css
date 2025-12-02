@@ -1,6 +1,8 @@
 :root {
   --bg-secondary: #fff5e1;
   --button-color: #f7a8a8;
+  --footer-color: #ead7b7;
+  --footer-color-light: #4e342e;
 }
 body {
   font-family: sans-serif;
@@ -39,4 +41,17 @@ h1 {
 
 .container-fluid {
   border: none;
+}
+
+.testimonials {
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.foter {
+  background-color: var(--footer-color) !important;
+  color: var(--footer-color-light) !important;
+  margin-top: 30px;
 }
