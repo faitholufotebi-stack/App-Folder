@@ -1,6 +1,7 @@
 :root {
-  --bg-primary: #fadadd;
-  --bg-secondary: #fff5e1;
+  --bg-primary: #ffffff;
+  --bg-secondary: #a8e6cf;
+  --bg-seconday-light: #79cbb8;
   --accent-color: #ffe5a5;
   --text-color: #5c4033;
   --button-color: #f7a8a8;
@@ -11,7 +12,7 @@
 }
 
 body {
-  background-color: var(--bg-secondary) !important;
+  /* background-color: var() !important; */
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -20,7 +21,7 @@ body {
 
 .Navbar {
   background-color: var(--bg-secondary) !important;
-  color: var(--text-color);
+  color: var(--bg-primary);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
@@ -41,9 +42,9 @@ button {
   background-color: var(--hover-color) !important;
 }
 
-/* .hero {
-  color: white;
-} */
+.hero {
+  background-color: var(--bg-seconday-light);
+}
 
 /* h1 {
   color: var(--text-color) !important;
