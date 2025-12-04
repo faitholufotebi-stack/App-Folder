@@ -51,8 +51,7 @@ h1 {
   justify-items: center;
 }
 
-.foter {
+.footer {
   background-color: var(--footer-color) !important;
   color: var(--footer-color-light) !important;
-  margin-top: 30px;
 }
