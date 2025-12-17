@@ -56,7 +56,7 @@ const cakes = [
 
 let cakecontainer = document.getElementById("cake-container");
 
-let cakecard = "";
+let cakeHTML = "";
 
 for (let cake of cakes) {
   cakecard += `
