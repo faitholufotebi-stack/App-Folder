@@ -74,3 +74,4 @@ for (let cake of cakes) {
     </div>
     `;
 }
+cakecontainer.innerHTML = cakecard;
