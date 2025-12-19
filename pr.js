@@ -1,4 +1,4 @@
-const cakes = [
+const products = [
   {
     id: 1,
     title: "Red Velvet Cake",
@@ -54,24 +54,31 @@ const cakes = [
   },
 ];
 
-let cakecontainer = document.getElementById("cake-container");
+let Productscontainer = document.getElementById("Products");
 
 let cakeHTML = "";
 
-for (let cake of cakes) {
-  cakecard += `
-    <div class="col">
-      <div class="card h-100">
-        <img src="${cake.image}" class="card-img-top" alt="${cake.title}" />
-        <div class="card-body">
-          <h5 class="card-title ">${cake.title}</h5>
-          <p class="card-text">
-            ${cake.description}
-          </p>
-          <p class="card-text fw-bold">$${cake.price.toFixed(2)}</p>
-        </div>
-      </div>
-    </div>
-    `;
+for (let product of Products) {
+  productcard += `
+  <div class="col-12 col-sm-10">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="${card.image}"
+                      class="card-img-top"
+                      alt="${card.title}"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">${card.title}</h5>
+                      <p class="card-text">
+                        $${card.price}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  `;
 }
-cakecontainer.innerHTML = cakecard;
+
+productsContainer.innerHTML += productsCard;
